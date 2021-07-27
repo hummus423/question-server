@@ -24,7 +24,7 @@ questionRouter.post('/questions', async (req, res) => {
             answers: req.body.answers
         })
         await question.save()
-        return res.status(201).json(question)
+        return res.status(201).json(question._id)
     } catch (error) {
         return res.status(500).json({ "error": error })
     }
