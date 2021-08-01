@@ -13,16 +13,19 @@ In the future, our startup will probably implement additional question types.
 Each question contains: a text and a list of answers. Trivia questions will also include the correct answer. (the question metadata)
 
 Implement 3 APIs
- 
+
 Insert
 * Input - The text and the list of answers (for trivia, also the correct answer)
 * Output - The created question ID
+
 Get
 * Input -  The question ID
 * Output - The question metadata
+
 Vote
 * Input - The question ID and the voted answer
 * Output - Number of votes per answer﻿
+
 * No need to track user id or limit the number of votes 
 * You should make it work first but the design is important
 
