@@ -26,8 +26,9 @@ Vote
 * Input - The question ID and the voted answer
 * Output - Number of votes per answer﻿
 
-* No need to track user id or limit the number of votes 
-* You should make it work first but the design is important
+
+No need to track user id or limit the number of votes.
+You should make it work first but the design is important
 
 
 ## HOW TO RUN
